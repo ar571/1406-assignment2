@@ -68,6 +68,10 @@ p {
 	text-align: left
 }
 
+p.confirm {
+	text-align: center;
+}
+
 img {
 	margin-left: auto;
 	margin-right: auto;

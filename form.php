@@ -17,13 +17,13 @@
 <a class=nav href="about.html">About Us</a>
 
 <h2> Success! You are signed up to our newsletter </h2>
-<p>
-Welcome to our newsletter <?php echo $_POST["name"]; ?><br>
-Your email is <?php echo $_POST["email"]; ?><br>
-Your birthday is <?php echo $_POST["birthday"]; ?><br>
-You are interested in <?php echo $_POST["product"]; ?><br>
-You will be contacted <?php echo $_POST["frequency"]; ?><br>
-<p>
+<p class=confirm>
+Welcome to our newsletter <?php echo $_POST["username"]; ?>!<br>
+Your email is <?php echo $_POST["email"]; ?>.<br>
+Your birthday is <?php echo $_POST["birthday"]; ?>.<br>
+You are interested in <?php echo $_POST["product"]; ?>.<br>
+You will be contacted <?php echo $_POST["frequency"]; ?>.<br>
+</p>
 
 <footer class=fix>
 	<p class=footer>Copyright &copy; 2021, Petite Treats, 123 Prize Lane, Kirwan QLD.  <a href="plan.html">Visit site plan</a></p>
