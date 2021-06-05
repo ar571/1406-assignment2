@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Petite Treats Bakery</title>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+	<link rel="icon" href="images/logo.png" type="image/png" sizes="16x16">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<script type="text/javascript" src="form.js"></script>
+</head>
+
+<body>
+<h1><img src="images/logo.png" title="Logo" alt="petite treats logo" class=logo>Petite Treats</h1>
+<a class=home href="index.html"><b>Home</b></a>
+<a class=specials href="specials.html">Specials (25% Discount!)</a>
+<a class=nav href="menu.html">Menu</a>
+<a class=nav href="contact.html">Contact</a>
+<a class=nav href="newsletter.html">Newsletter</a>
+<a class=nav href="about.html">About Us</a>
+
+<form method="POST" action="form.php" onsubmit="return validateForm()">
+    <h2>Newsletter Signup</h2>
+	<p> Sign up for our newsletter to receive information about our latest deals and get exclusive offer codes right in your inbox. Never miss out on our yummy treats!</p>
+	<table>
+		<tr>
+		<td>
+            <p>Name</p>
+		</td>
+		<td>
+            <input
+				class="fname"
+				type="text"
+				name="username"
+				id="username"
+				autocomplete="off"
+				placeholder="Full name"
+            />
+		</td>
+		</tr>
+		<tr>
+		<td>
+            <p>Email</p>
+		</td>
+		<td>
+            <input type="email" name="email" id="email" autocomplete="off" placeholder="Email" />
+		</td>
+		</tr>
+		<tr>
+		<td>
+            <p>Birthday</p>
+		</td>
+		<td>
+            <input type="date" name="birthday" id="birthday" placeholder="Birthday" />
+		</td>
+		</tr>
+		<tr>
+		<td>
+            <p>Product Interest</p>
+		</td>
+		<td>
+            <select name="product" id="product">
+                <option value="Muffin">Muffin</option>
+                <option value="Pie">Pie</option>
+                <option value="Tarts">Tarts</option>
+                <option value="Cookies">Cookies</option>
+            </select>
+		</td>
+		</tr>
+		<tr>
+		<td>
+			<p>Frequency of the Newsletter</p>
+		</td>
+		<td>
+			<input type="radio" id="weekly" name="frequency" value="weekly">
+			<label for="weekly"> Weekly </label>
+			<input type="radio" id="monthly" name="frequency" value="monthly">
+			<label for="monthly"> Monthly </label>
+		</td>
+		</tr>
+		<tr>
+		<td>
+            <p>Comments</p>
+		</td>
+		<td>
+            <textarea rows="3" placeholder="Enter any comments about our products or our stores here :)"></textarea>
+		</td>
+		</tr>
+	</table>
+
+    <button type="submit" value="Sign Up">Sign Up</button>
+</form>
+
+<footer>
+	<p class=footer>Copyright &copy; 2021, Petite Treats, 123 Prize Lane, Kirwan QLD.  <a href="plan.html">Visit site plan</a></p>
+</footer>
+
+</body>
+</html>
