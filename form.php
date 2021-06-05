@@ -23,6 +23,7 @@ Your email is <?php echo $_POST["email"]; ?>.<br>
 Your birthday is <?php echo $_POST["birthday"]; ?>.<br>
 You are interested in <?php echo $_POST["product"]; ?>.<br>
 You will be contacted <?php echo $_POST["frequency"]; ?>.<br>
+You entered the following comments: <?php echo $_POST["comments"]; ?>
 </p>
 
 <footer class=fix>
